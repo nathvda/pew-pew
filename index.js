@@ -14,7 +14,7 @@ var ctx = canvas.getContext("2d");
 let x = window.innerWidth/2;
 let y = window.innerHeight-80;
 
-const playerBulletController = new BulletController(canvas, 5,"red");
+const playerBulletController = new BulletController(canvas, 10,"red");
 const enemyBulletController = new BulletController(canvas, 4, "white");
 const enemyController = new EnemyController(canvas,enemyBulletController, playerBulletController);
 const player = new Player(canvas, 5, playerBulletController);
