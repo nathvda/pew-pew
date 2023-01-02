@@ -3,6 +3,7 @@ html {
   width: 100vw;
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 html body {
   padding: 0;
@@ -11,4 +12,10 @@ html body {
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html canvas {
+  width: 90vw;
 }/*# sourceMappingURL=style.css.map */
